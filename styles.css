@@ -1,21 +1,23 @@
 
 /* Your CSS Code here. */
-.container{
-	background:darkblue;
+.holder{
+	 border: 2px solid red;
+	 
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	justify-content:center;
-	align-item:center;
+	justify-content:space-between;
+	 
 	
 	
 }
 
-.container .item{
-	width:25%;
-	
-	
- 
-	background:lightcoral;
+.holder .item{
+	/*width:25%;
+    background:lightcoral;*/
+	width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid black;
 	
 }
