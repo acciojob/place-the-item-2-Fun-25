@@ -2,16 +2,19 @@
 /* Your CSS Code here. */
 .container{
 	background:darkblue;
-	height:400px;
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
+	justify-content:center;
+	align-item:center;
 	
 	
 }
 
 .container .item{
 	width:25%;
+	
+	
 	margin:10px;
 	background:lightcoral;
 	
